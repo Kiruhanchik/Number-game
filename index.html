@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <script src="./js/main.js"></script>
+    <title>Number game</title>
+</head>
+<body>
+    <header>Secret number game <img src="./assets/img/number_logo.png" alt=""></header>
+    <button id="start">Start</button>
+    <main id="game" style="display: none;">
+        <label for="guess">Your number:</label>
+        <input type="number" id="guess" placeholder="Write your number"/>
+        <button id="check">Check</button>
+        <p id="result"></p>
+        <p id="hints"></p>
+        <p>Attempts: <span id="attempts">0</span></p>
+        <input type="number" id="min-num" placeholder="Write your min number"/>
+        <input type="number" id="max-num" placeholder="Write your high number"/>
+        <button style="margin-top: 0;" id="restart">Start new game</button>
+    </main>
+</body>
+</html>
